@@ -18,7 +18,10 @@ class Stack:
         
     def size(self):
         return len(self.items)
-    
+
+    def __str__(self):
+         return f"{self.items}"
+
 class Stack2:
     def __init__(self, name):
        self.name = name 
