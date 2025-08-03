@@ -46,6 +46,9 @@ class Stack2:
     def size(self):
         return len(self.items)
 
+    def __str__(self):
+         return f"{self.items}"
+
 class Queue:
     def __init__(self):
         self.items = []
@@ -61,6 +64,8 @@ class Queue:
 
     def size(self):
         return len(self.items)
+    def __str__(self):
+         return f"{self.items}"
 
 class Queue2:
     def __init__(self):
@@ -77,6 +82,9 @@ class Queue2:
 
     def size(self):
         return len(self.items)
+
+    def __str__(self):
+         return f"{self.items}"
 
 class Deque:
     def __init__(self):
