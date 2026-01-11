@@ -215,4 +215,5 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# uv.lock
+# uv
+uv.lock
